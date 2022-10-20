@@ -94,3 +94,15 @@ Allow user to click generate & display scheme from seed
     - obj.colors[0].hex.value = "#04429A"
     - obj.colors[0].hex.clean = "04429A"
     - obj.colors[0].name.value = "Congress Blue"
+
+  ##### DEPLOYED URL
+
+  - https://onessr.github.io/colorsAPI/
+
+  ###### NEXT STEPS
+
+  - Work on copy to clipboard
+    - when hex is clicked the UI should provide feedback that the color was copied to the clipboard
+    - indicator should either pop up temporarily or be static?
+  - The Carat in the scheme selection drop down dissapears when the project is deployed but not when run in local host
+    - check why this is, is there a better way to make it work?
