@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>colorsApi</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaqueries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <form action="#" method="post" id="formId" class="form">
+        <input
+          type="color"
+          id="colorInput"
+          class="colorInput"
+          value="#212529"
+        />
+        <select name="scheme" id="schemeSelect" class="select" required>
+          <option value="">Select a color scheme</option>
+          <option value="monochrome" id="monochrome" class="option" selected>
+            Monochrome
+          </option>
+          <option value="monochrome-dark" id="monochrome-dark" class="option">
+            Monochrome-dark
+          </option>
+          <option value="monochrome-light" id="monochrome-light" class="option">
+            Monochrome-light
+          </option>
+
+          <option value="analogic" id="analogic" class="option">
+            Analogic
+          </option>
+          <option value="complement" id="complement" class="option">
+            Complement
+          </option>
+          <option
+            value="analogic-complement"
+            id="analogic-complement"
+            class="option"
+          >
+            Analogic-complement
+          </option>
+          <option value="triad" id="triad" class="option">Triad</option>
+        </select>
+        <button type="submit" id="button" class="submitBtn">Get scheme</button>
+      </form>
+      <section class="colorsContainer">
+        <div class="color" id="seed">
+          <p class="text" id="seedText">#hex</p>
+        </div>
+        <div class="color" id="hex1">
+          <p class="text" id="hex1Text">#hex</p>
+        </div>
+        <div class="color" id="hex2">
+          <p class="text" id="hex2Text">#hex</p>
+        </div>
+        <div class="color" id="hex3">
+          <p class="text" id="hex3Text">#hex</p>
+        </div>
+        <div class="color" id="hex4">
+          <p class="text" id="hex4Text">#hex</p>
+        </div>
+      </section>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
