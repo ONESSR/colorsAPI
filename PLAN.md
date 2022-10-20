@@ -107,3 +107,4 @@ Allow user to click generate & display scheme from seed
   - The Carat in the scheme selection drop down dissapears when the project is deployed but not when run in local host
     - check why this is, is there a better way to make it work?
     - as a result the scheme title in the dropdown is not appearing centrally to the container: fix this!
+  - Refactor a clean up code

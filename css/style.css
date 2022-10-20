@@ -1,3 +1,4 @@
+/* RESET STYLES */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -7,6 +8,7 @@
   padding: 0;
 }
 
+/* GENERAL BODY STYLES */
 body {
   width: 100%;
   font-family: "Inter", sans-serif;
@@ -20,6 +22,7 @@ body {
   position: relative;
 }
 
+/* MAIN CONTAINER */
 .main {
   background-color: white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -30,13 +33,14 @@ body {
   border-radius: 16px;
 }
 
+/* FORM CONTAINING TOP ELEMENTS */
 form {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/*------ Style 1 ------*/
+/* ELEMENT STYLES */
 .colorInput {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -117,6 +121,7 @@ form {
   border: none;
 }
 
+/* COLOR STRIPS */
 .colorsContainer {
   display: flex;
   background-color: transparent;
@@ -125,18 +130,18 @@ form {
   margin-top: 24px;
   max-height: 100%;
   height: 50vh;
-  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px; */
   position: relative;
 }
 
+/* SINGLE COLOR STRIP */
 .color {
   width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  /* cursor: pointer; */
 }
 
+/* HEXT TEXT */
 .text {
   padding: 16px 8px;
   background-color: #f8f9fa;
@@ -146,12 +151,14 @@ form {
   text-transform: uppercase;
 }
 
+/* INITIAL COLOR STRIP */
 #seed {
   border-radius: 16px 0 0 16px;
   overflow: hidden;
   position: relative;
 }
 
+/* SURROUNDING CONTAINER */
 .colorsContainer:last-of-type {
   border-radius: 0 16px 16px 0;
   overflow: hidden;

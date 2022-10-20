@@ -11,11 +11,6 @@ let select = document.getElementById("schemeSelect");
 let selectValue = select.value.toLowerCase();
 console.log("selectValue", selectValue);
 
-// let text = select.options[select.selectedIndex].text;
-// console.log("text", text);
-
-// get data from api using the default values
-
 function getInitialData(seedColorClean, selectValue) {
   fetch(
     `https://www.thecolorapi.com/scheme?hex=${seedColorClean}&format=json&mode=${selectValue}&count=4`,

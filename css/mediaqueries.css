@@ -1,11 +1,7 @@
 @media screen and (max-width: 520px) {
-  body {
-    /* background-color: red; */
-  }
   form {
     flex-direction: column;
     gap: 24px;
-    /* background-color: aliceblue; */
   }
   .colorsContainer {
     display: flex;
@@ -23,9 +19,6 @@
 
   .text {
     width: 80px;
-    /* height: 10vh; */
-    /* float: right; */
-    /* margin-top: 16px; */
     margin-right: 24px;
     border-radius: 8px;
   }
