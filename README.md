@@ -1,6 +1,6 @@
 # colorsAPI
 
-Generate selected color schemes based on selected seed color.
+Generate selected color schemes based on user selected seed color.
 
 View the project live here: https://onessr.github.io/colorsAPI/
 
