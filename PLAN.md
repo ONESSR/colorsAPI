@@ -109,4 +109,3 @@ Allow user to click generate & display scheme from seed
     - as a result the scheme title in the dropdown is not appearing centrally to the container: fix this!
   - Refactor a clean up code
  
- abcdefghijklmnopqrstuvwxyz
